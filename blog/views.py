@@ -29,6 +29,7 @@ class PostUpdate(ObjectUpdateMixin, View):
     model = Post
     model_form = PostForm
     template = 'blog/post_update_form.html'
+    
 
 class PostDelete(ObjectDeleteMixin, View):
     model = Post
